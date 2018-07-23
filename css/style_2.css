@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    height:100%;
+}
+body{
+    height:100%;
+}
+#left h1{
+    display: inline;
+}
+#left{
+    width:20%;
+    height:100%;
+    background-color: #2ca8ff;
+    padding:50px auto;
+    float: left;
+    color:white;
+    text-align: center;
+
+}
+
+#right{
+    float:left;
+    padding:30px 20px;
+}
+
+.content{
+    margin-bottom: 40px;
+}
+.clearfix{
+    overflow: auto;
+}
+.content .inline{
+    display: inline-block;
+    float:left;
+    margin-right:40px;
+}
+.content h2{
+    margin-bottom: 30px;
+}
+.content .block{
+    margin-bottom:20px;
+}
